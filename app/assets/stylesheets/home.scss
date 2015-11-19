@@ -1,0 +1,20 @@
+header {
+  background-image: image-url('road.jpg');
+  background-size: cover;
+  height: 65vh;
+  min-height: 180px;
+
+  .page-title {
+    color: $white;
+    font-size: 42px;
+  }
+
+  .page-description {
+    color: $gray-dark;
+  }
+
+  .main-header-wrapper {
+    padding-top: 22vh;
+    padding-bottom: 22vh;
+  }
+}
