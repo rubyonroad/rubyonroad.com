@@ -1,4 +1,4 @@
-header {
+/*header {
   background-image: image-url('road.jpg');
   background-size: cover;
   height: 65vh;
@@ -17,4 +17,28 @@ header {
     padding-top: 22vh;
     padding-bottom: 22vh;
   }
+}*/
+
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+ }
+
+.bg-primary {
+  background-color: #f05f40;
 }
+
+#why {
+
+  a, a:focus {
+    color: #fff;
+    border-bottom: 1px dashed;
+    text-decoration: none;
+
+    &:hover {
+      color: #ccc;
+      text-decoration: none;
+     }
+}
+  }
