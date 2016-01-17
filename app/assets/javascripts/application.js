@@ -13,3 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require home
+//= require bootstrap.min
+//= require jquery.easing.min
+//= require jquery.fittext
+//= require wow.min
+//= require creative
