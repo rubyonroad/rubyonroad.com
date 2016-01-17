@@ -40,5 +40,14 @@
       color: #ccc;
       text-decoration: none;
      }
-}
   }
+}
+
+#subscribe {
+  .btn-block {
+    margin-top: 10px;
+    @media(min-width: $screen-sm) {
+      margin-top: 0px;
+    }
+  }
+}
