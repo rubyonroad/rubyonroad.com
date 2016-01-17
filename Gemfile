@@ -38,6 +38,7 @@ gem 'mailgun_rails'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
+gem 'puma'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -64,3 +65,6 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+ gem 'rails_12factor'
+end
