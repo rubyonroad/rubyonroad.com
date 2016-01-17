@@ -7,6 +7,7 @@ class HomeController < ApplicationController
   def subscribe
     subscriber = Subscriber.new subscribe_params
     if subscriber.save
+      NotificationMailer.subscribed(subscriber.email).deliver_now
       render json: subscriber
     else
       render status: 422, json: {errors: subscriber.errors.full_messages}

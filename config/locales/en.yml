@@ -20,10 +20,6 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  activerecord:
-    errors:
-      models:
-        subscriber:
-          attributes:
-            email:
-              uniqueness: 'has been subscribed'
+  notifications:
+    subscribed:
+      subject: 'Ruby On Road subscription'
