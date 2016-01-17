@@ -20,4 +20,10 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  activerecord:
+    errors:
+      models:
+        subscriber:
+          attributes:
+            email:
+              uniqueness: 'has been subscribed'

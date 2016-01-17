@@ -44,6 +44,7 @@
 }
 
 #subscribe {
+  min-height: 320px;
   .btn-block {
     margin-top: 10px;
     @media(min-width: $screen-sm) {
