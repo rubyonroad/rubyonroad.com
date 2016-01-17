@@ -149,7 +149,7 @@
     <section id="why" class="bg-primary">
       <div class="container">
         <div class="col-lg-4">
-          <%= image_tag 'face.jpg', class: "img-responsive img-circle" %>
+          <%= image_tag 'http://placehold.it/500x500/DEAC71?text=Face place', class: "img-responsive img-circle" %>
         </div>
         <div class="col-lg-7 col-lg-offset-1">
           <div class="section-heading-spacer"></div>
@@ -163,7 +163,7 @@
           <p>
           Currently the project under development state.
           <a href="#subscribe" class="page-scroll">Subscribe</a> to be the first one who use Ruby On Road.
-          If you are in Odessa Ukraine and want to pair with me or just have some questions
+          If you want to pair with me or just have some questions
           <a href="mailto:eugene@rubyonroad.com" class="page-scroll">write me about this.</a>
           </p>
         </div>
@@ -185,7 +185,7 @@
                   <%= form_tag subscribe_path, remote: true, id: 'subscrib_form' do %>
                     <div class="col-md-7 col-sm-7">
                       <%= email_field_tag :email, nil, class: 'form-control input-lg', placeholder: 'Email adress...', required: true %>
-                      <p class="help-block"></p>
+                      <p class="help-block" style="display:none;"></p>
                     </div><!--7-->
                     <div class="col-md-5 col-sm-5 ">
                       <button class="btn btn-block btn-lg btn-primary">Subscribe</button>

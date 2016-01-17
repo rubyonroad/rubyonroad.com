@@ -4,7 +4,9 @@
 
 $ ->
   $('#subscrib_form').bind("ajax:success", (xhr, data, status) ->
-    $('.help-block').html('You are successfully subscribed!')
+    $('.help-block').html('You are successfully subscribed!').fadeIn()
+      .delay(2500).fadeOut('slow')
   ).bind('ajax:error', (xhr, data, status, error) ->
-    $('.help-block').html(data.responseJSON.errors)
+    $('.help-block').html(data.responseJSON.errors).fadeIn()
+      .delay(2500).fadeOut('slow')
   )
