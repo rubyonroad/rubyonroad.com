@@ -19,7 +19,19 @@
   }
 }*/
 
+.img-hint {
+  position: relative;
+  top: 20px;
+  font-style: italic;
+  .socials {
+    font-size: 24px;
+    a {
+      border-bottom: none !important;
+    }
+  }
+}
 .section-heading-spacer {
+  margin-top: 50px;
   float: left;
   width: 200px;
   border-top: 3px solid #e7e7e7;
@@ -51,4 +63,15 @@
       margin-top: 0px;
     }
   }
+}
+
+svg {
+  fill: currentColor;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+}
+
+svg:hover {
+  color: #ccc;
 }
