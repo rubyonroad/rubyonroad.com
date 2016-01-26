@@ -1,8 +1,12 @@
 Rails.application.configure do
-  config.action_mailer.delivery_method = :mailgun
-  config.action_mailer.mailgun_settings = {
-    api_key: ENV['MAILGUN_PUBLIC_KEY'],
-    domain: ENV['appc4c230159a9947e0a08670cc26e8560c.mailgun.org']
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    :port           => ENV['MAILGUN_SMTP_PORT'],
+    :address        => ENV['MAILGUN_SMTP_SERVER'],
+    :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
+    :password       => ENV['MAILGUN_SMTP_PASSWORD'],
+    :domain         => 'YOUR_APPS_DOMAIN', #eg: 'yourappname.herokuapp.com'
+    :authentication => :plain,
   }
   # Settings specified here will take precedence over those in config/application.rb.
 
