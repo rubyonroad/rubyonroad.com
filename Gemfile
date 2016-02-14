@@ -8,6 +8,7 @@ gem 'rails', '4.2.4'
 # Bootstrap libs
 gem 'bootstrap-sass'
 gem "font-awesome-rails"
+gem 'bower'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -30,6 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'pg'
 
 gem 'haml-rails'
+gem 'angular-rails-templates'
 
 gem 'mailgun_rails'
 

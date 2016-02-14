@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :posts
   root 'home#index'
+  get 'app' => 'application#angular'
   post 'subscribe' => 'home#subscribe'
 
   # The priority is based upon order of creation: first created -> highest priority.

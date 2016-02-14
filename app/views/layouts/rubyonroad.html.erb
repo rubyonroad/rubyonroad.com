@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+    <meta name="viewport" content="initial-scale=1">
+    <title>Rubyonroad</title>
+    <style> .glyphicon-thumbs-up { cursor:pointer } </style>
+    <%= stylesheet_link_tag 'rubyonroad', media: 'all'%>
+    <%= javascript_include_tag 'rubyonroad', media: 'all' %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body ng-app="flapperNews" ng-controller="MainCtrl">
+    <ui-view></ui-view>
+  </body>
+</html>
+

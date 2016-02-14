@@ -1,0 +1,20 @@
+@import 'angular-material/angular-material.scss';
+
+.text-center {
+  text-align: center;
+}
+
+.login{
+  background-image: image-url('login.jpg');
+  background-size: cover;
+
+}
+.header-login {
+  padding: 40px;
+  border-bottom: 15px solid rgb(76, 175, 80);
+}
+
+.text-warn {
+  background-color: #FF5722;
+  color: #fff;
+}

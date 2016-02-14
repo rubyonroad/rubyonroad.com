@@ -1,0 +1,40 @@
+
+
+<div layout="row" layout-fill>
+  <div flex class="bg-grey login" hide-xs>
+  </div>
+  <div flex>
+    <md-content layout="column" layout-wrap layout-align="center stretch">
+          <div class="text-center text-warn header-login">
+            <h2 >Ruby on Road</h2>
+          </div>
+          <div flex style="padding-top:80px">
+            <div layout="row" layout-fill layout-align="center center">
+              <div flex="80">
+                <form name="userForm">
+                  <md-input-container class="md-block" flex-gt-sm>
+                  <label>Email</label>
+                  <input type="email" required name="name" ng-model="user.email" />
+                  <div ng-messages="userForm.email.$error">
+                    <div ng-message="required">Email is required.</div>
+                  </div>
+                  </md-input-container>
+
+                  <md-input-container class="md-block" flex-gt-sm>
+                  <label>Password</label>
+                  <input type="password" required name="name" ng-model="user.password" />
+                  <div ng-messages="userForm.password.$error">
+                    <div ng-message="required">Password id required.</div>
+                  </div>
+                  </md-input-container>
+                  <div layout="row" layout-align="center center">
+                    <md-button flex="50" class="md-raised md-primary">Login</md-button>
+                    <md-button flex="50" class="md-raised">Sign up</md-button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          </md-content>
+        </div>
+

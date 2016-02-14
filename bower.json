@@ -1,0 +1,25 @@
+{
+  "name": "rubyonroad",
+  "homepage": "https://github.com/rubyonroad/rubyonroad.com",
+  "authors": [
+    "Euegene Smentyna <djsmentya@gmail.com>"
+  ],
+  "description": "Ruby on Road app",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "^0.2.18",
+    "bootstrap": "^3.3.6",
+    "AngularDevise": "angular-devise#^1.1.0",
+    "angular-material": "^1.0.5"
+  }
+}
