@@ -58,6 +58,7 @@ group :development, :test do
   gem 'capybara'
 
   gem 'faker'
+  gem 'jasmine-rails'
 end
 
 group :development do
